@@ -83,3 +83,11 @@
 2021-05-01 08:56:24,938 - src.utils.dispatch_utils - INFO - Parsed gin config from /home/linmin001/megan_77777777/configs/uspto_50k.gin
 2021-05-04 16:01:08,495 - src - INFO - Setting random seed to 77777777
 2021-05-04 16:01:10,810 - src.utils.dispatch_utils - INFO - Parsed gin config from /home/linmin001/megan_77777777/configs/uspto_50k.gin
+2021-05-06 06:50:29,314 - src - INFO - Setting random seed to 77777777
+2021-05-06 06:50:46,066 - src - INFO - Setting random seed to 77777777
+2021-05-06 06:50:51,607 - src - INFO - Setting random seed to 77777777
+2021-05-06 06:50:57,238 - src - INFO - Setting random seed to 77777777
+2021-05-06 06:57:21,194 - src - INFO - Setting random seed to 77777777
+2021-05-06 06:57:29,496 - __main__ - INFO - Creating model...
+2021-05-06 06:57:29,497 - __main__ - INFO - Loading data...
+2021-05-06 06:57:30,818 - __main__ - INFO - Evaluating on 5005 samples from test
