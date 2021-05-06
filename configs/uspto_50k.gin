@@ -2,14 +2,14 @@
 get_dataset.dataset_key = 'uspto_50k'
 
 train_megan.featurizer_key = 'megan_16_bfs_randat'
-train_megan.max_n_epochs = 200
+train_megan.max_n_epochs = 80
 train_megan.train_samples_per_epoch = 20000
 train_megan.valid_samples_per_epoch = 5000
 train_megan.batch_size = 4
 train_megan.learning_rate = 0.0001
-train_megan.gen_lr_factor = 0.05
-train_megan.gen_lr_patience = 6
-train_megan.early_stopping = 16
+train_megan.gen_lr_factor = 0.1
+train_megan.gen_lr_patience = 4
+train_megan.early_stopping = 8
 train_megan.start_epoch = 0
 train_megan.megan_warmup_epochs = 1
 

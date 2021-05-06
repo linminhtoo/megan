@@ -57,6 +57,7 @@ class Uspto50k(Dataset):
             'id': []
         }
 
+        curr_id = 0 # minhtoo add 
         for split_key, filename in (('train', 'raw_train.csv'), ('valid', 'raw_val.csv'), ('test', 'raw_test.csv')):
             data_path = os.path.join(DATA_DIR, f'uspto_50k/{filename}')
             if not os.path.exists(data_path):
@@ -66,12 +67,17 @@ class Uspto50k(Dataset):
                     'and extract to the required location.')
             data_df = pd.read_csv(data_path)
 
-            for reaction_smiles in tqdm(data_df['reactants>reagents>production'], total=len(data_df),
+            ids = [] # minhtoo add
+            # data_df['reactants>reagents>production']
+            for reaction_smiles in tqdm(data_df['rxn_smiles'], total=len(data_df),
                                         desc="generating product/substrates SMILES'"):
                 subs, prod = tuple(reaction_smiles.split('>>'))
                 subs, prod = complete_mappings(subs, prod)
                 x['substrates'].append(subs)
                 x['product'].append(prod)
+                
+                curr_id += 1
+                ids.append(curr_id)
 
             for split_key2 in ['train', 'valid', 'test']:
                 if split_key == split_key2:
@@ -79,8 +85,10 @@ class Uspto50k(Dataset):
                 else:
                     split[split_key2] += [0 for _ in range(len(data_df))]
 
-            meta['reaction_type_id'] += data_df['class'].tolist()
-            meta['id'] += data_df['id'].tolist()
+            # meta['reaction_type_id'] += data_df['class'].tolist()
+            meta['reaction_type_id'] += [0] * len(ids) # minhtoo add
+            meta['id'] += ids # minhtoo add
+            # meta['id'] += data_df['id'].tolist()
 
         logger.info(f"Saving 'x' to {self.x_path}")
         pd.DataFrame(x).to_csv(self.x_path, sep='\t')

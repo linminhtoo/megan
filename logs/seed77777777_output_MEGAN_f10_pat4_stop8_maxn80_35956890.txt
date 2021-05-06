@@ -1,0 +1,122 @@
+Project root set as /home/linmin001/megan_77777777
+2021-05-01 08:29:43,589 - src - INFO - Setting random seed to 77777777
+2021-05-01 08:29:53,715 - __main__ - INFO - Acquiring dataset for key uspto_50k
+2021-05-01 08:30:30,679 - src.datasets.uspto_50k - INFO - Saving 'x' to /home/linmin001/megan_77777777/data/uspto_50k/x.tsv
+2021-05-01 08:30:31,188 - src.datasets.uspto_50k - INFO - Saving /home/linmin001/megan_77777777/data/uspto_50k/metadata.tsv
+2021-05-01 08:30:31,347 - src.datasets.uspto_50k - INFO - Saving default split to /home/linmin001/megan_77777777/data/uspto_50k/default_split.csv
+2021-05-01 08:30:31,537 - __main__ - INFO - Dataset for key uspto_50k acquired successfully!
+2021-05-01 08:30:32,320 - src - INFO - Setting random seed to 77777777
+2021-05-01 08:30:36,207 - __main__ - INFO - Featurizing with 'megan_16_bfs_randat' on dataset 'uspto_50k'
+2021-05-01 08:30:36,208 - src.feat.megan_graph - INFO - Loading dataset uspto_50k and default split
+2021-05-01 08:30:36,401 - src.feat.megan_graph - INFO - Found 1 unique reaction types in the dataset
+2021-05-01 08:30:36,402 - src.feat.megan_graph - INFO - Max. number of nodes: 100
+2021-05-01 08:30:36,448 - src.feat.megan_graph - INFO - Finding all possible values of atom and bond properties on 44702 reactions using 52 chunks
+2021-05-01 08:30:47,721 - src.feat.megan_graph - INFO - Found atom features: atomic_num: 16, formal_charge: 3, chiral_tag: 3, num_explicit_hs: 4, is_aromatic: 2, is_supernode: 2, is_edited: 2, is_reactant: 2
+2021-05-01 08:30:47,722 - src.feat.megan_graph - INFO - Found bond features: bond_type: 6, bond_stereo: 3, is_aromatic: 2, is_edited: 2
+2021-05-01 08:30:47,845 - src.feat.megan_graph - INFO - Featurizing 44702 reactions with 52 threads
+2021-05-01 08:30:47,845 - src.feat.megan_graph - INFO - Number of generated paths (train+valid): 49707
+2021-05-01 08:30:47,845 - src.feat.megan_graph - INFO - Upper bound for number of generated samples: 795312 (49707 * 16)
+2021-05-01 08:30:47,976 - src.feat.megan_graph - INFO - Merging featurized data from 52 chunks
+2021-05-01 08:32:19,552 - src.feat.megan_graph - INFO - Merged chunk 1 (unparsed samples: 0/859)
+2021-05-01 08:32:19,881 - src.feat.megan_graph - INFO - Merged chunk 2 (unparsed samples: 1/859)
+2021-05-01 08:32:20,210 - src.feat.megan_graph - INFO - Merged chunk 3 (unparsed samples: 0/859)
+2021-05-01 08:32:20,529 - src.feat.megan_graph - INFO - Merged chunk 4 (unparsed samples: 2/859)
+2021-05-01 08:32:21,053 - src.feat.megan_graph - INFO - Merged chunk 5 (unparsed samples: 0/859)
+2021-05-01 08:32:21,407 - src.feat.megan_graph - INFO - Merged chunk 6 (unparsed samples: 1/859)
+2021-05-01 08:32:21,665 - src.feat.megan_graph - INFO - Merged chunk 7 (unparsed samples: 1/859)
+2021-05-01 08:32:21,857 - src.feat.megan_graph - INFO - Merged chunk 8 (unparsed samples: 1/859)
+2021-05-01 08:32:21,981 - src.feat.megan_graph - INFO - Merged chunk 9 (unparsed samples: 2/859)
+2021-05-01 08:32:22,104 - src.feat.megan_graph - INFO - Merged chunk 10 (unparsed samples: 4/859)
+2021-05-01 08:32:22,233 - src.feat.megan_graph - INFO - Merged chunk 11 (unparsed samples: 1/859)
+2021-05-01 08:32:22,384 - src.feat.megan_graph - INFO - Merged chunk 12 (unparsed samples: 0/859)
+2021-05-01 08:32:22,522 - src.feat.megan_graph - INFO - Merged chunk 13 (unparsed samples: 1/859)
+2021-05-01 08:32:22,646 - src.feat.megan_graph - INFO - Merged chunk 14 (unparsed samples: 1/859)
+2021-05-01 08:32:22,783 - src.feat.megan_graph - INFO - Merged chunk 15 (unparsed samples: 3/859)
+2021-05-01 08:32:22,926 - src.feat.megan_graph - INFO - Merged chunk 16 (unparsed samples: 2/859)
+2021-05-01 08:32:23,090 - src.feat.megan_graph - INFO - Merged chunk 17 (unparsed samples: 1/859)
+2021-05-01 08:32:23,232 - src.feat.megan_graph - INFO - Merged chunk 18 (unparsed samples: 2/859)
+2021-05-01 08:32:23,383 - src.feat.megan_graph - INFO - Merged chunk 19 (unparsed samples: 1/859)
+2021-05-01 08:32:23,577 - src.feat.megan_graph - INFO - Merged chunk 20 (unparsed samples: 3/859)
+2021-05-01 08:32:23,742 - src.feat.megan_graph - INFO - Merged chunk 21 (unparsed samples: 1/859)
+2021-05-01 08:32:23,892 - src.feat.megan_graph - INFO - Merged chunk 22 (unparsed samples: 2/859)
+2021-05-01 08:32:24,058 - src.feat.megan_graph - INFO - Merged chunk 23 (unparsed samples: 1/859)
+2021-05-01 08:32:24,228 - src.feat.megan_graph - INFO - Merged chunk 24 (unparsed samples: 4/859)
+2021-05-01 08:32:24,468 - src.feat.megan_graph - INFO - Merged chunk 25 (unparsed samples: 0/859)
+2021-05-01 08:32:24,656 - src.feat.megan_graph - INFO - Merged chunk 26 (unparsed samples: 3/859)
+2021-05-01 08:32:24,830 - src.feat.megan_graph - INFO - Merged chunk 27 (unparsed samples: 3/859)
+2021-05-01 08:32:24,996 - src.feat.megan_graph - INFO - Merged chunk 28 (unparsed samples: 1/859)
+2021-05-01 08:32:25,176 - src.feat.megan_graph - INFO - Merged chunk 29 (unparsed samples: 1/859)
+2021-05-01 08:32:25,408 - src.feat.megan_graph - INFO - Merged chunk 30 (unparsed samples: 0/859)
+2021-05-01 08:32:25,641 - src.feat.megan_graph - INFO - Merged chunk 31 (unparsed samples: 3/859)
+2021-05-01 08:32:25,833 - src.feat.megan_graph - INFO - Merged chunk 32 (unparsed samples: 1/859)
+2021-05-01 08:32:26,020 - src.feat.megan_graph - INFO - Merged chunk 33 (unparsed samples: 3/859)
+2021-05-01 08:32:26,208 - src.feat.megan_graph - INFO - Merged chunk 34 (unparsed samples: 2/859)
+2021-05-01 08:32:26,404 - src.feat.megan_graph - INFO - Merged chunk 35 (unparsed samples: 2/859)
+2021-05-01 08:32:26,611 - src.feat.megan_graph - INFO - Merged chunk 36 (unparsed samples: 3/859)
+2021-05-01 08:32:26,804 - src.feat.megan_graph - INFO - Merged chunk 37 (unparsed samples: 1/859)
+2021-05-01 08:32:27,014 - src.feat.megan_graph - INFO - Merged chunk 38 (unparsed samples: 2/859)
+2021-05-01 08:32:27,247 - src.feat.megan_graph - INFO - Merged chunk 39 (unparsed samples: 2/859)
+2021-05-01 08:32:27,449 - src.feat.megan_graph - INFO - Merged chunk 40 (unparsed samples: 3/859)
+2021-05-01 08:32:27,690 - src.feat.megan_graph - INFO - Merged chunk 41 (unparsed samples: 3/859)
+2021-05-01 08:32:27,913 - src.feat.megan_graph - INFO - Merged chunk 42 (unparsed samples: 3/859)
+2021-05-01 08:32:28,122 - src.feat.megan_graph - INFO - Merged chunk 43 (unparsed samples: 0/859)
+2021-05-01 08:32:28,345 - src.feat.megan_graph - INFO - Merged chunk 44 (unparsed samples: 0/859)
+2021-05-01 08:32:28,588 - src.feat.megan_graph - INFO - Merged chunk 45 (unparsed samples: 0/859)
+2021-05-01 08:32:28,811 - src.feat.megan_graph - INFO - Merged chunk 46 (unparsed samples: 1/859)
+2021-05-01 08:32:29,071 - src.feat.megan_graph - INFO - Merged chunk 47 (unparsed samples: 0/859)
+2021-05-01 08:32:29,306 - src.feat.megan_graph - INFO - Merged chunk 48 (unparsed samples: 0/859)
+2021-05-01 08:32:29,588 - src.feat.megan_graph - INFO - Merged chunk 49 (unparsed samples: 1/859)
+2021-05-01 08:32:29,843 - src.feat.megan_graph - INFO - Merged chunk 50 (unparsed samples: 1/859)
+2021-05-01 08:32:30,089 - src.feat.megan_graph - INFO - Merged chunk 51 (unparsed samples: 2/859)
+2021-05-01 08:32:34,037 - src.feat.megan_graph - INFO - Merged chunk 52 (unparsed samples: 3/893)
+2021-05-01 08:32:34,037 - src.feat.megan_graph - INFO - Concatenating metadata
+2021-05-01 08:32:34,073 - src.feat.megan_graph - INFO - Saving found actions
+2021-05-01 08:32:36,800 - src.feat.megan_graph - INFO - Found 54 reaction actions
+2021-05-01 08:32:36,802 - src.feat.megan_graph - INFO - Number of steps: max: 16, avg: 4.234206575084597
+2021-05-01 08:32:36,802 - src.feat.megan_graph - INFO - Saving featurized data
+2021-05-01 08:32:41,759 - src.feat.megan_graph - INFO - Saved 44623/44702 reactions (99.8232741264373%)
+2021-05-01 08:32:41,759 - src.feat.megan_graph - INFO - Saved 44623 paths (avg. 1.0 paths per reaction)
+2021-05-01 08:32:41,760 - src.feat.megan_graph - INFO - Saving featurization metadata
+2021-05-01 08:32:41,794 - __main__ - INFO - Finished featurizing with 'megan_16_bfs_randat' on dataset 'uspto_50k'!
+2021-05-01 08:33:10,028 - src - INFO - Setting random seed to 77777777
+2021-05-01 08:33:13,820 - src.utils.dispatch_utils - INFO - Parsed gin config from /home/linmin001/megan_77777777/configs/uspto_50k.gin
+2021-05-01 08:33:13,840 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = uspto_50k
+train_megan.featurizer_key = megan_16_bfs_randat
+train_megan.max_n_epochs = 80
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.1
+train_megan.gen_lr_patience = 4
+train_megan.early_stopping = 8
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2021-05-01 08:33:13,848 - __main__ - INFO - Creating model...
+2021-05-01 08:33:33,859 - __main__ - INFO - Loading data...
+2021-05-01 08:33:33,859 - __main__ - INFO - Training for maximum of 80 epochs...
+2021-05-01 08:33:33,860 - __main__ - INFO - Loading data
+2021-05-01 08:33:34,737 - __main__ - INFO - Training on chunk of 39643 training samples and 4980 valid samples
+2021-05-01 08:33:34,738 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2021-05-01 08:33:38,536 - __main__ - WARNING - Exception while running batch: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 10.76 GiB total capacity; 1.77 GiB already allocated; 7.75 MiB free; 14.19 MiB cached)
