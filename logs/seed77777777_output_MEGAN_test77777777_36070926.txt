@@ -3,3 +3,365 @@ Project root set as /home/linmin001/megan_77777777
 2021-05-06 06:57:29,496 - __main__ - INFO - Creating model...
 2021-05-06 06:57:29,497 - __main__ - INFO - Loading data...
 2021-05-06 06:57:30,818 - __main__ - INFO - Evaluating on 5005 samples from test
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Beam search parameters: beam size=50, max steps=16
+
+Top   1: 49.7030% cum 49.7030%
+Top   2: 14.8515% cum 64.5545%
+Top   3:  8.9109% cum 73.4653%
+Top   4:  4.7525% cum 78.2178%
+Top   5:  2.8713% cum 81.0891%
+Top   6:  2.0792% cum 83.1683%
+Top   7:  1.2871% cum 84.4554%
+Top   8:  1.1881% cum 85.6436%
+Top   9:  1.1881% cum 86.8317%
+Top  10:  0.6931% cum 87.5248%
+Top  11:  0.4950% cum 88.0198%
+Top  12:  0.6931% cum 88.7129%
+Top  13:  0.3960% cum 89.1089%
+Top  14:  0.4950% cum 89.6040%
+Top  15:  0.0990% cum 89.7030%
+Top  16:  0.0000% cum 89.7030%
+Top  17:  0.1980% cum 89.9010%
+Top  18:  0.3960% cum 90.2970%
+Top  19:  0.2970% cum 90.5941%
+Top  20:  0.0990% cum 90.6931%
+Top  21:  0.2970% cum 90.9901%
+Top  22:  0.0990% cum 91.0891%
+Top  23:  0.0990% cum 91.1881%
+Top  24:  0.0990% cum 91.2871%
+Top  25:  0.0000% cum 91.2871%
+Top  26:  0.3960% cum 91.6832%
+Top  27:  0.0000% cum 91.6832%
+Top  28:  0.0990% cum 91.7822%
+Top  29:  0.0990% cum 91.8812%
+Top  30:  0.2970% cum 92.1782%
+Top  31:  0.0990% cum 92.2772%
+Top  32:  0.0990% cum 92.3762%
+Top  33:  0.0990% cum 92.4752%
+Top  34:  0.0990% cum 92.5743%
+Top  35:  0.0000% cum 92.5743%
+Top  36:  0.0990% cum 92.6733%
+Top  37:  0.1980% cum 92.8713%
+Top  38:  0.1980% cum 93.0693%
+Top  39:  0.0990% cum 93.1683%
+Top  40:  0.0000% cum 93.1683%
+Top  41:  0.0000% cum 93.1683%
+Top  42:  0.0990% cum 93.2673%
+Top  43:  0.0000% cum 93.2673%
+Top  44:  0.0000% cum 93.2673%
+Top  45:  0.0000% cum 93.2673%
+Top  46:  0.0000% cum 93.2673%
+Top  47:  0.0000% cum 93.2673%
+Top  48:  0.0000% cum 93.2673%
+Top  49:  0.0000% cum 93.2673%
+Top  50:  0.0990% cum 93.3663%
+
+Avg incorrect reactions in Top 50: 0.0000%
+Avg duplicate reactions in Top 50: 16.5838%
+Avg number of predictions per target: 49.7564
+Targets with < 50 predictions: 12.0792%
+Targets with zero predictions: 0.0000%
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Beam search parameters: beam size=50, max steps=16
+
+Top   1: 50.3980% cum 50.3980%
+Top   2: 14.5771% cum 64.9751%
+Top   3:  8.4577% cum 73.4328%
+Top   4:  5.0249% cum 78.4577%
+Top   5:  3.2338% cum 81.6915%
+Top   6:  2.0896% cum 83.7811%
+Top   7:  1.1443% cum 84.9254%
+Top   8:  1.2935% cum 86.2189%
+Top   9:  0.8458% cum 87.0647%
+Top  10:  0.8955% cum 87.9602%
+Top  11:  0.4478% cum 88.4080%
+Top  12:  0.7463% cum 89.1542%
+Top  13:  0.5473% cum 89.7015%
+Top  14:  0.7960% cum 90.4975%
+Top  15:  0.3980% cum 90.8955%
+Top  16:  0.1493% cum 91.0448%
+Top  17:  0.1990% cum 91.2438%
+Top  18:  0.2985% cum 91.5423%
+Top  19:  0.3980% cum 91.9403%
+Top  20:  0.1990% cum 92.1393%
+Top  21:  0.2488% cum 92.3881%
+Top  22:  0.0995% cum 92.4876%
+Top  23:  0.1493% cum 92.6368%
+Top  24:  0.2488% cum 92.8856%
+Top  25:  0.1493% cum 93.0348%
+Top  26:  0.2488% cum 93.2836%
+Top  27:  0.0000% cum 93.2836%
+Top  28:  0.1493% cum 93.4328%
+Top  29:  0.0498% cum 93.4826%
+Top  30:  0.1990% cum 93.6816%
+Top  31:  0.0995% cum 93.7811%
+Top  32:  0.0498% cum 93.8308%
+Top  33:  0.0995% cum 93.9303%
+Top  34:  0.0995% cum 94.0299%
+Top  35:  0.0000% cum 94.0299%
+Top  36:  0.0498% cum 94.0796%
+Top  37:  0.1493% cum 94.2289%
+Top  38:  0.0995% cum 94.3284%
+Top  39:  0.0995% cum 94.4279%
+Top  40:  0.0000% cum 94.4279%
+Top  41:  0.0000% cum 94.4279%
+Top  42:  0.1493% cum 94.5771%
+Top  43:  0.0000% cum 94.5771%
+Top  44:  0.0000% cum 94.5771%
+Top  45:  0.0498% cum 94.6269%
+Top  46:  0.0000% cum 94.6269%
+Top  47:  0.0498% cum 94.6766%
+Top  48:  0.0000% cum 94.6766%
+Top  49:  0.0498% cum 94.7264%
+Top  50:  0.0498% cum 94.7761%
+
+Avg incorrect reactions in Top 50: 0.0000%
+Avg duplicate reactions in Top 50: 16.6638%
+Avg number of predictions per target: 49.7846
+Targets with < 50 predictions: 12.0896%
+Targets with zero predictions: 0.0000%
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Beam search parameters: beam size=50, max steps=16
+
+Top   1: 50.5316% cum 50.5316%
+Top   2: 14.4850% cum 65.0166%
+Top   3:  8.5050% cum 73.5216%
+Top   4:  4.7508% cum 78.2724%
+Top   5:  2.8904% cum 81.1628%
+Top   6:  1.9269% cum 83.0897%
+Top   7:  1.4618% cum 84.5515%
+Top   8:  1.4950% cum 86.0465%
+Top   9:  0.7973% cum 86.8439%
+Top  10:  0.8638% cum 87.7076%
+Top  11:  0.5316% cum 88.2392%
+Top  12:  0.8306% cum 89.0698%
+Top  13:  0.4651% cum 89.5349%
+Top  14:  0.7309% cum 90.2658%
+Top  15:  0.4319% cum 90.6977%
+Top  16:  0.3654% cum 91.0631%
+Top  17:  0.1329% cum 91.1960%
+Top  18:  0.2326% cum 91.4286%
+Top  19:  0.3322% cum 91.7608%
+Top  20:  0.1993% cum 91.9601%
+Top  21:  0.2658% cum 92.2259%
+Top  22:  0.1993% cum 92.4252%
+Top  23:  0.1661% cum 92.5914%
+Top  24:  0.1993% cum 92.7907%
+Top  25:  0.1329% cum 92.9236%
+Top  26:  0.1993% cum 93.1229%
+Top  27:  0.0000% cum 93.1229%
+Top  28:  0.1661% cum 93.2890%
+Top  29:  0.0997% cum 93.3887%
+Top  30:  0.1329% cum 93.5216%
+Top  31:  0.1329% cum 93.6545%
+Top  32:  0.0332% cum 93.6877%
+Top  33:  0.1329% cum 93.8206%
+Top  34:  0.0664% cum 93.8870%
+Top  35:  0.0000% cum 93.8870%
+Top  36:  0.0664% cum 93.9535%
+Top  37:  0.0997% cum 94.0532%
+Top  38:  0.0664% cum 94.1196%
+Top  39:  0.0664% cum 94.1860%
+Top  40:  0.0000% cum 94.1860%
+Top  41:  0.0332% cum 94.2193%
+Top  42:  0.0997% cum 94.3189%
+Top  43:  0.0332% cum 94.3522%
+Top  44:  0.0000% cum 94.3522%
+Top  45:  0.0664% cum 94.4186%
+Top  46:  0.0332% cum 94.4518%
+Top  47:  0.0332% cum 94.4850%
+Top  48:  0.0332% cum 94.5183%
+Top  49:  0.0332% cum 94.5515%
+Top  50:  0.0332% cum 94.5847%
+
+Avg incorrect reactions in Top 50: 0.0000%
+Avg duplicate reactions in Top 50: 16.8659%
+Avg number of predictions per target: 49.7927
+Targets with < 50 predictions: 11.8937%
+Targets with zero predictions: 0.0000%
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Beam search parameters: beam size=50, max steps=16
+
+Top   1: 50.6484% cum 50.6484%
+Top   2: 14.6883% cum 65.3367%
+Top   3:  8.0299% cum 73.3666%
+Top   4:  4.7382% cum 78.1047%
+Top   5:  3.0175% cum 81.1222%
+Top   6:  2.1197% cum 83.2419%
+Top   7:  1.4963% cum 84.7382%
+Top   8:  1.5711% cum 86.3092%
+Top   9:  0.8229% cum 87.1322%
+Top  10:  0.7731% cum 87.9052%
+Top  11:  0.5736% cum 88.4788%
+Top  12:  0.7481% cum 89.2269%
+Top  13:  0.4489% cum 89.6758%
+Top  14:  0.5985% cum 90.2743%
+Top  15:  0.4738% cum 90.7481%
+Top  16:  0.2993% cum 91.0474%
+Top  17:  0.1247% cum 91.1721%
+Top  18:  0.2743% cum 91.4464%
+Top  19:  0.3242% cum 91.7706%
+Top  20:  0.1995% cum 91.9701%
+Top  21:  0.3242% cum 92.2943%
+Top  22:  0.1496% cum 92.4439%
+Top  23:  0.1496% cum 92.5935%
+Top  24:  0.1746% cum 92.7681%
+Top  25:  0.1247% cum 92.8928%
+Top  26:  0.1995% cum 93.0923%
+Top  27:  0.0499% cum 93.1421%
+Top  28:  0.1496% cum 93.2918%
+Top  29:  0.0998% cum 93.3915%
+Top  30:  0.1247% cum 93.5162%
+Top  31:  0.0998% cum 93.6160%
+Top  32:  0.0748% cum 93.6908%
+Top  33:  0.0998% cum 93.7905%
+Top  34:  0.0748% cum 93.8653%
+Top  35:  0.0000% cum 93.8653%
+Top  36:  0.0998% cum 93.9651%
+Top  37:  0.0748% cum 94.0399%
+Top  38:  0.0499% cum 94.0898%
+Top  39:  0.0499% cum 94.1397%
+Top  40:  0.0000% cum 94.1397%
+Top  41:  0.0748% cum 94.2145%
+Top  42:  0.0748% cum 94.2893%
+Top  43:  0.0499% cum 94.3392%
+Top  44:  0.0000% cum 94.3392%
+Top  45:  0.0499% cum 94.3890%
+Top  46:  0.0499% cum 94.4389%
+Top  47:  0.0249% cum 94.4638%
+Top  48:  0.0249% cum 94.4888%
+Top  49:  0.0499% cum 94.5387%
+Top  50:  0.0249% cum 94.5636%
+
+Avg incorrect reactions in Top 50: 0.0000%
+Avg duplicate reactions in Top 50: 16.7307%
+Avg number of predictions per target: 49.7958
+Targets with < 50 predictions: 11.9701%
+Targets with zero predictions: 0.0000%
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Beam search parameters: beam size=50, max steps=16
+
+Top   1: 50.5800% cum 50.5800%
+Top   2: 14.6800% cum 65.2600%
+Top   3:  8.1400% cum 73.4000%
+Top   4:  4.6200% cum 78.0200%
+Top   5:  3.2000% cum 81.2200%
+Top   6:  2.0000% cum 83.2200%
+Top   7:  1.7400% cum 84.9600%
+Top   8:  1.6000% cum 86.5600%
+Top   9:  0.9200% cum 87.4800%
+Top  10:  0.7200% cum 88.2000%
+Top  11:  0.5000% cum 88.7000%
+Top  12:  0.6400% cum 89.3400%
+Top  13:  0.4200% cum 89.7600%
+Top  14:  0.6000% cum 90.3600%
+Top  15:  0.4000% cum 90.7600%
+Top  16:  0.2800% cum 91.0400%
+Top  17:  0.1600% cum 91.2000%
+Top  18:  0.2400% cum 91.4400%
+Top  19:  0.3400% cum 91.7800%
+Top  20:  0.2000% cum 91.9800%
+Top  21:  0.2800% cum 92.2600%
+Top  22:  0.2400% cum 92.5000%
+Top  23:  0.1400% cum 92.6400%
+Top  24:  0.1800% cum 92.8200%
+Top  25:  0.1200% cum 92.9400%
+Top  26:  0.1600% cum 93.1000%
+Top  27:  0.0400% cum 93.1400%
+Top  28:  0.1400% cum 93.2800%
+Top  29:  0.0800% cum 93.3600%
+Top  30:  0.1600% cum 93.5200%
+Top  31:  0.0800% cum 93.6000%
+Top  32:  0.0600% cum 93.6600%
+Top  33:  0.0800% cum 93.7400%
+Top  34:  0.0800% cum 93.8200%
+Top  35:  0.0200% cum 93.8400%
+Top  36:  0.0800% cum 93.9200%
+Top  37:  0.0800% cum 94.0000%
+Top  38:  0.0400% cum 94.0400%
+Top  39:  0.0600% cum 94.1000%
+Top  40:  0.0000% cum 94.1000%
+Top  41:  0.0600% cum 94.1600%
+Top  42:  0.0800% cum 94.2400%
+Top  43:  0.1000% cum 94.3400%
+Top  44:  0.0200% cum 94.3600%
+Top  45:  0.0400% cum 94.4000%
+Top  46:  0.0400% cum 94.4400%
+Top  47:  0.0400% cum 94.4800%
+Top  48:  0.0200% cum 94.5000%
+Top  49:  0.0600% cum 94.5600%
+Top  50:  0.0400% cum 94.6000%
+
+Avg incorrect reactions in Top 50: 0.0000%
+Avg duplicate reactions in Top 50: 16.7552%
+Avg number of predictions per target: 49.7958
+Targets with < 50 predictions: 12.0800%
+Targets with zero predictions: 0.0000%
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Beam search parameters: beam size=50, max steps=16
+
+Top   1: 50.5295% cum 50.5295%
+Top   2: 14.6853% cum 65.2148%
+Top   3:  8.1718% cum 73.3866%
+Top   4:  4.6354% cum 78.0220%
+Top   5:  3.1968% cum 81.2188%
+Top   6:  1.9980% cum 83.2168%
+Top   7:  1.7383% cum 84.9550%
+Top   8:  1.5984% cum 86.5534%
+Top   9:  0.9191% cum 87.4725%
+Top  10:  0.7193% cum 88.1918%
+Top  11:  0.4995% cum 88.6913%
+Top  12:  0.6394% cum 89.3307%
+Top  13:  0.4196% cum 89.7502%
+Top  14:  0.5994% cum 90.3497%
+Top  15:  0.3996% cum 90.7493%
+Top  16:  0.2797% cum 91.0290%
+Top  17:  0.1598% cum 91.1888%
+Top  18:  0.2398% cum 91.4286%
+Top  19:  0.3397% cum 91.7682%
+Top  20:  0.1998% cum 91.9680%
+Top  21:  0.2797% cum 92.2478%
+Top  22:  0.2398% cum 92.4875%
+Top  23:  0.1399% cum 92.6274%
+Top  24:  0.1798% cum 92.8072%
+Top  25:  0.1199% cum 92.9271%
+Top  26:  0.1598% cum 93.0869%
+Top  27:  0.0400% cum 93.1269%
+Top  28:  0.1399% cum 93.2667%
+Top  29:  0.0799% cum 93.3467%
+Top  30:  0.1598% cum 93.5065%
+Top  31:  0.0799% cum 93.5864%
+Top  32:  0.0599% cum 93.6464%
+Top  33:  0.0799% cum 93.7263%
+Top  34:  0.0799% cum 93.8062%
+Top  35:  0.0200% cum 93.8262%
+Top  36:  0.0799% cum 93.9061%
+Top  37:  0.0799% cum 93.9860%
+Top  38:  0.0400% cum 94.0260%
+Top  39:  0.0599% cum 94.0859%
+Top  40:  0.0000% cum 94.0859%
+Top  41:  0.0599% cum 94.1459%
+Top  42:  0.0799% cum 94.2258%
+Top  43:  0.0999% cum 94.3257%
+Top  44:  0.0200% cum 94.3457%
+Top  45:  0.0400% cum 94.3856%
+Top  46:  0.0400% cum 94.4256%
+Top  47:  0.0400% cum 94.4655%
+Top  48:  0.0200% cum 94.4855%
+Top  49:  0.0599% cum 94.5455%
+Top  50:  0.0400% cum 94.5854%
+
+Avg incorrect reactions in Top 50: 0.0000%
+Avg duplicate reactions in Top 50: 16.7537%
+Avg number of predictions per target: 49.7960
+Targets with < 50 predictions: 12.0679%
+Targets with zero predictions: 0.0000%
+
+2021-05-06 07:24:56,804 - __main__ - INFO - Saved Top 50 to models/uspto_50k/eval_test_50_16.txt
+0 hours, 27 minutes and 37 seconds elapsed.

@@ -90,7 +90,7 @@ def evaluate_megan(save_path: str, beam_size: int = 10, max_gen_steps: int = 16,
     if 'class' in meta_df:
         split_ind = np.argwhere((split_df[split_key] == 1) & (meta_df['class'] == 1)).flatten()
 
-    np.random.shuffle(split_ind)
+    # np.random.shuffle(split_ind) # DO NOT SHUFFLE!!! (min htoo)
     logger.info(f"Evaluating on {len(split_ind)} samples from {split_key}")
 
     top_k = np.zeros(beam_size, dtype=float)
