@@ -10,7 +10,7 @@
 
 #SBATCH -o logs/seed77777777_output_%x_%j.txt               # redirect output to output_JOBNAME_JOBID.txt
 #SBATCH -e logs/seed77777777_error_%x_%j.txt                # redirect errors to error_JOBNAME_JOBID.txt
-#SBATCH -J MEGAN_eval_train77777777_beam100_bs5                           # name of job
+#SBATCH -J MEGAN_eval_train77777777_beam100_bs5_NOSHUFFLE                          # name of job
 #SBATCH --mail-type=ALL               # Mail when job starts and ends
 #SBATCH --mail-user=linmin001@e.ntu.edu.sg  # email address
 
